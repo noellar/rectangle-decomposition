@@ -355,9 +355,9 @@ function findRegions(vertices) {
 
 
 function decomposeRegion(paths, clockwise) {
-  if(!Array.isArray(paths)) {
+  /*if(!Array.isArray(paths)) {
     throw new Error("rectangle-decomposition: Must specify list of loops")
-  }
+  }*/
 
   //Coerce to boolean type
   clockwise = !!clockwise
